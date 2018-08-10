@@ -1,8 +1,11 @@
 language: c
 
+install: true
+
 script:
  - ./t/0001-who-is-this
  
 matrix:
- TRAVIS_OS_NAME=linux
- TRAVIS_OS_NAME=osx
+ env:
+  TRAVIS_OS_NAME=linux
+  TRAVIS_OS_NAME=osx
