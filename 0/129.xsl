@@ -30,7 +30,10 @@ window.onload = function () {
 </script>
     </head>
 
-    <body><h1>129</h1>
+    <body>
+      <xsl:template match="title">
+	<h1><xsl:attribute name="style">background-color : #00ddff</xsl:attribute>
+      <xsl:value-of select="."/></h1></xsl:template>
 
 <!--  ======== Comment = alternative simple transform ======
 <html xsl:version="1.0"
