@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- encodingX="iso-8859-1" -->
+<!-- uncomment/comment to toggle xslt/validate -->
+<?xml-stylesheet type="text/xsl"
+href="0/Diary.xsl"?>
+<!--?xml-stylesheet type="text/xsl"
+href="file:///var/mobile/Applications/88FCC7E0-9A4B-48B1-9448-4B0B20B9DE40/Documents/M/x/Diary.xsl"?-->
+
+<!-- DOCTYPE notes SYSTEM "file:///var/mobile/Applications/88FCC7E0-9A4B-48B1-9448-4B0B20B9DE40/Documents/M/x/Notes-maths.dtd" [-->
+<!DOCTYPE spec PUBLIC "-//W3C//DTD Specification V2.0//EN"
+                      "/XML/1998/06/xmlspec-v20.dtd" [
+<!ENTITY XML "http://www.w3.org/TR/REC-xml">
+<!ENTITY XMLNames "http://www.w3.org/TR/REC-xml-names">
+<!ENTITY XSLT.ns "http://www.w3.org/1999/XSL/Transform">
+<!ENTITY XSLTA.ns "http://www.w3.org/1999/XSL/TransformAlias">
+<!ENTITY XSLFO.ns "http://www.w3.org/1999/XSL/Format">
+<!ENTITY XHTML.ns "http://www.w3.org/TR/xhtml1/strict">
+
+<!ENTITY year "2018">
+<!ENTITY month "May">
+<!ENTITY MM "05">
+<!ENTITY day "Wedesday">
+<!ENTITY DD "16">
+<!ENTITY YYYYMMDD "&year;&MM;&DD;">
+<!ENTITY LEV "MONTH">
+
+<!ENTITY THERE
+'file:///var/mobile/Applications/88FCC7E0-9A4B-48B1-9448-4B0B20B9DE40/Documents/'>
+
+<!ENTITY THERE_TOO
+'https://btrfs.wiki.kernel.org/index.php/'>
+
+<!ENTITY THERE_FEB
+'file:///var/mobile/Applications/88FCC7E0-9A4B-48B1-9448-4B0B20B9DE40/Documents/_03 Gunter Liszewski/_06-Diary/2018/02/'>
+
+<!ENTITY THERE_KERNEL
+'https://www.kernel.org/doc/html/latest/process/'>
+
+<!ENTITY previous
+'<a href="Yesterday.html">Yesterday</a>'>
+
+<!ENTITY before
+'<a href="BeforeYesterday.html">Before yesterday</a>'>
+
+<!ENTITY SETUP_EE
+'<a href="http://setup-ee.wdsglobal.com/internet">
+http://setup-ee.wdsglobal.com/internet (outside)</a>'>
+
+<!ENTITY THERE_MAR
+'file:///var/mobile/Applications/88FCC7E0-9A4B-48B1-9448-4B0B20B9DE40/Documents/_03 Gunter Liszewski/_06-Diary/2018/03/'>
+
+<!ENTITY LINUX_BTRFS_FOR_NEXT_LOG
+'<a href="https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git/log/?h=for-next&amp;showmsg=1">
+https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git/log/?h=for-next&amp;showmsg=1
+</a>'>
+
+<!ENTITY HTTPS_PUSH
+'<a href="http://repo.or.cz/httpspush.html">
+http://repo.or.cz/httpspush.html</a>'>
+
+<!ENTITY P_USER_TOOLS
+'&THERE_TOO;Project_ideas#Userspace_tools_projects'>
+
+<!ENTITY W_CODING
+'&THERE_TOO;Code_documentation'>
+
+<!ENTITY M_SEMANTICS
+'<a href="http://www.w3.org/2000/10/swap/doc/">
+http://www.w3.org/2000/10/swap/doc/, Semantic Web tutorial
+</a>'>
+
+<!ENTITY M_FOUNDATIONS
+'<a href="http://www.extra.research.philips.com/hera/people/terhorst/ISWC2005p668.pdf">
+H. J. ter Horst, paper</a>'>
+
+
+]> <!-- ============== END Entities =============== -->
+
+<!-- ========= Note Template =========
+<note><date></date><title>PHP regular expression match</title>
+
+<para>
+<a href="file:///var/mobile/Applications/88FCC7E0-9A4B-48B1-9448-4B0B20B9DE40/Documents/_01 Bteco%20Limited/_07 sbx/208-php-pty/02-egrep-deprecated/v/t">[07-208-02] PHP expression</a>
+</para>
+
+<code><![CDATA[
+
+[07-208-02]
+
+]]></code>
+</note>
+
+=========== Diary template ============
+<note><date></date><title></title>
+
+<para>
+</para>
+
+<code><![CDATA[
+]]></code>
+
+</note>
+========== END of Template ======== -->
+<!-- BEGIN DIAGNOSTIC COMMENT
+     END DIAGNOSTIC COMMENT -->
+
+<notes>
+
+<note><date>20180516 Wednesday 14:01</date><title>Semantics</title>
+
+<para>What does that do! 
+</para>
+
+<code><![CDATA[
+]]></code>
+
+<ol>
+<li>&M_SEMANTICS; a tutorial from the w3c</li>
+<li>&M_FOUNDATIONS; about logic, semantics, language [M]</li>
+</ol>
+
+</note>
+
+
+
+<!-- END -->
+
+<xnote><date>2:20</date><title>About the coding</title>
+
+<para>Documenting. &W_CODING;
+</para>
+
+<code><![CDATA[
+
+ctree.c Core btree manipulation code
+ctree.h Defines keys and most of the data structures used for metadata
+dir-item.c Helpers to create and use directory items
+disk-io.c Metadata IO operations as well as FS open/close routines
+extent-tree.c Tracks and space used by btree blocks and file data extents
+extent_io.c Keeps track of state (locked, writeback etc) and implements extent_buffers
+extent_map.c Maps logical offset in a file to blocks on logical address on disk
+file-item.c Helpers to insert and remove file extents and data checksums
+file.c File write routines (kernel only)
+inode-item.c Helpers to allocate inode structures in the btree
+inode.c Most file and directory operations for the kernel
+ordered-data.c Maintains lists of inodes for data=ordered
+print-tree.c Walks a btree and prints the items it finds
+root-tree.c Helpers to manage the items in the tree of tree roots
+struct-funcs.c Macro magic to instantiate all of the metadata set/get functions
+super.c Kernel super block and related functions
+transaction.c Handles transaction commits
+volumes.c All of the multi-device aware code
+tree-log.c Handles logging of tree items for fast fsync
+compression.c zlib compression support routines
+
+]]></code>
+
+</xnote>
+
+<xnote><date>20180312 Monday 14:55</date><title>Back to the present</title>
+
+<para>A view on connections. The present. Decide by Wednesday of what ``time''
+to commit to this. We are using it right now. So that commitment exists now.
+</para>
+
+
+
+<para>The possible approaches include a proper work setup. Define the
+outcomes and their measures. This will be part of a contract. Time is
+included; what will be delivered when. It will have a project plan to
+some level of detail. Decide on Wednesday.
+</para>
+
+<code><![CDATA[
+(To be completed)
+
+* Product  ____________________________________________________
+ (description/title)
+
+** Particulars
+ (for each, give the delivery date, and the quality metrics,...)
+
+** Tasks and milestones 
+ (with dependancies and requirements)
+
+]]></code>
+
+</xnote>
+
+<xnote><date>20180307 15:41 Wednesday</date><title>Butter File Symptoms</title>
+
+<para>Better just call it ``btrfs''. ``B'' for balance, ``tr'' for the trees, it is
+a system for filing files and directories and related factoids, ``fs''.
+</para>
+
+<ol><li>
+Read and understand the user documentation (&THERE_TOO;Main_Page#Guides_and_usage_information).
+</li><li>
+Create one or several btrfs filesystems with different configurations and learn how they work in userspace 
+-- what are the features, what are the problems you see? 
+</li><li>
+Actually use at least one of the filesystems you created for real data in daily use (with backups)
+</li><li>
+Build the userspace tools from git
+</li><li>
+Pick up one of the userspace projects from Project_ideas#Userspace_tools_projects and implement that.
+ If you pick the right one(s), you'll have to learn about some of 
+ the internal structures of the FS anyway. Compile and test your patch.
+</li><li>
+If you're adding a new feature, write an automated xfstest for it as well.
+Get that patch accepted.
+ This will probably involve a sequence of revisions to it, multiple versions over a period of several weeks or more,
+ with a review process.
+</li><li>
+You should also send your test to xfstests and get that accepted.
+</li><li>
+Do the above again, until you get used to the processes involved,
+ and have demonstrated that you can work well with the other people in the subsystem,
+ and are generally producing useful and sane code.
+</li><li>
+It's all about trust -- can you be trusted to mostly do the right thing?
+Use the documentation at &THERE_TOO;Main_Page#Developer_documentation, and the output of btrfs-debug-tree to understand the internal structure of the FS
+</li><li>
+Pick up one of the smaller, more self-contained ideas from the projects page Project_ideas
+ (say, &THERE_TOO;Project_ideas#Cancellable_operations or Project_ideas#Implement_new_FALLOC_FL_.2A_modes)
+ and try to implement it.
+</li><li>
+ Again: build, write test code, test thoroughly, submit patch for review, modify as suggested by reviewers, and repeat as often as necessary.
+</li>
+</ol>
+
+</xnote>
+
+</notes>
+
+
+
+

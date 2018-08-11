@@ -1,0 +1,28 @@
+<HTML>
+<head><title>Today (gl)</title>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+  });
+</script>
+<script type="text/javascript" src="0/MathJax.js"></script>
+</script>
+</head>
+
+<body>
+<div id="viewer"></div>
+<div id="dataViewer"></div>
+<script type="text/JavaScript"
+            src="j/loader.js"></script>
+<script>
+  load("j/xslproc.js",
+    function() {                                         // \\
+      XSLTproc.displayResult("viewer",                 //     \\
+         "16-Wednesday.xml",              //          ||  aye  ||
+         "0/Diary.xsl");                 //            \\     //
+          });                           // wool         \\   //
+</script>
+</body>
+</HTML>
