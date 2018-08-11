@@ -22,6 +22,8 @@ href="0/129.xsl"?>
 <!ENTITY YYYYMMDD "&year;&MM;&DD;">
 <!ENTITY LEV "MONTH">
 
+<!ENTITY TITLE "One-two-nine $(11210)_{3}$">
+
 <!ENTITY THERE "https://the-number.github.io">
 
 <!ENTITY XPath "http://www.w3.org/TR/xpath">
@@ -82,6 +84,8 @@ href="0/129.xsl"?>
 
 <notes>
 
+<title>&TITLE;</title>
+  
 <note><date>2018.08.11 17:30</date><title>$(81)_{16}$</title>
 
 <code><![CDATA[
