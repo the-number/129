@@ -92,7 +92,7 @@ g#
 [0 hx0
 [1 s{^[ .u1
 [2 s}^[ .u2 
-q1,q2:s{^[" ... nested blocks
+q1,q2:s{^[" ... 
  
 ]]></code>
 
@@ -102,39 +102,6 @@ $$(81)_{16}$$
 $$(1000 0001)_{2}$$
 $$(11210)_{3}$$
 </para>
-
-</note>
-
-<note><date>2018.08.11 17:57</date><title>A key</title>
-
-<para>For the insertion into the right place
-</para>
-
-<code><![CDATA[
-
------BEGIN PGP PUBLIC KEY BLOCK-----
-
-mI0EW2nHDAEEAKkLg/VUOWyyas/i8tJNMRnm1bMlpXByscyGopkJ2Q/pXaEVEGm8
-zbMC7bZpEahlD42btg5NsrfuShE/r+ulcb5G7iQnPgDFk1c9A3X0dZjS4QZUJQGg
-qcE/JVTzOnczuaU6zUxmMkT+VYIwfasM1KCD7cIFW4w8mWHtpuUhK0StABEBAAG0
-M0d1bnRlciBMaXN6ZXdza2kgKHM3MCkgPGd1bnRlci5saXN6ZXdza2lAZ21haWwu
-Y29tPojUBBMBCAA+FiEEFnMvqKmnOWFz7+0Zh75aJvMoR3sFAltpxwwCGwMFCQAn
-jQAFCwkIBwIGFQoJCAsCBBYCAwECHgECF4AACgkQh75aJvMoR3sChwP/eHCPGfWO
-H11Thl52IuR+nl9azPxfgIgdCTDAF/T5w70esSJASXQQNRU51b3z6IXH1H5iFLJQ
-P/1MARa9KP/8Wzuz/Lu4g+wOmEVFed6l/iTVWLo2naZvRahT4GhcYnAsJ7ul7oeL
-7pfTO4lDfXXBsiN8yrBMx848cibZfiOCNMK4jQRbaccMAQQAug8owLfkAXT3Afnk
-1XulCzU4DCLQ+d5/w3GggFG0urxRzPH+734oI8WZGvTQYXOjGhox4+HX5i0kwMDr
-1rCPnoxLvVgpFXn52LaOWxqUop9cum+2MU0G71kZGeGuVtPLKPiRz4CeoOoHn+N7
-YafcVmmdV5/q+xyFwScUYZUxPGkAEQEAAYi8BBgBCAAmFiEEFnMvqKmnOWFz7+0Z
-h75aJvMoR3sFAltpxwwCGwwFCQAnjQAACgkQh75aJvMoR3suZQP9EOWoTxW06YzP
-hpZRe5gutZmxEJi/1sYmxjJIXNbfJPU9pHdrO8ifljv9sM6y6eZhGb/dJKma6/ga
-p8+IfCwgW+Ai6KPHGf5Ja2opG2CFWXUjXiXpvzrepMTh7Y1q62dS/vxNLt6An3JU
-OeD5BZzov1vgLTgSzXgpuVWVeR0KBXU=
-=zf6R
------END PGP PUBLIC KEY BLOCK-----
-
-
-]]></code>
 
 </note>
 
