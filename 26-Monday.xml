@@ -76,7 +76,8 @@ href="file:///var/mobile/Applications/88FCC7E0-9A4B-48B1-9448-4B0B20B9DE40/Docum
 <!--'file:///var/mobile/Applications/88FCC7E0-9A4B-48B1-9448-4B0B20B9DE40/Documents/_03 Gunter Liszewski/_03 Jobs/_2018/Core Systems NI Ballysillan Glenbank Business Park/'-->
 
 <!ENTITY THERE_TOO
-'file:///var/mobile/Applications/88FCC7E0-9A4B-48B1-9448-4B0B20B9DE40/Documents/_03 Gunter Liszewski/_06-Diary/2018/02/'>
+''>
+<!-- file:///var/mobile/Applications/88FCC7E0-9A4B-48B1-9448-4B0B20B9DE40/Documents/_03 Gunter Liszewski/_06-Diary/2018/02/'-->
 
 <!ENTITY permittivity
 '<a href="&THERE;Permittivity">Permittivity</a>'>
