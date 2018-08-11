@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?> <!-- encodingX="iso-8859-1" -->
 <!-- uncomment/comment to toggle xslt/validate -->
 <?xml-stylesheet type="text/xsl"
-href="0/Diary.xsl"?>
+href="0/129.xsl"?>
 <!-- $Id: REC-xslt-19991116.xml,v 1.1 1999/11/16 15:01:35 hugo Exp $ -->
 <!-- DOCTYPE notes SYSTEM "file:///var/mobile/Applications/88FCC7E0-9A4B-48B1-9448-4B0B20B9DE40/Documents/M/x/Notes-maths.dtd" [-->
 
@@ -66,7 +66,7 @@ href="0/Diary.xsl"?>
 
 </note>
 
-=========== Diary template ============
+=========== 129 template ============
 <note><date></date><title></title>
 
 <para>
