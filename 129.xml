@@ -15,76 +15,29 @@ href="0/Diary.xsl"?>
 <!ENTITY XHTML.ns "http://www.w3.org/TR/xhtml1/strict">
 
 <!ENTITY year "2018">
-<!ENTITY month "February">
-<!ENTITY MM "02">
-<!ENTITY day "Monday">
-<!ENTITY DD "26">
+<!ENTITY month "August">
+<!ENTITY MM "08">
+<!ENTITY day "Saturday">
+<!ENTITY DD "11">
 <!ENTITY YYYYMMDD "&year;&MM;&DD;">
 <!ENTITY LEV "MONTH">
 
-<!ENTITY THERE_DOMAIN "https://diary.gunter.bteco.ltd.uk">
-<!ENTITY THERE_PATH "https://www2.bteco.ltd.uk/p/gunter/diary/">
-<!ENTITY THERE_HOME "~/.Notes.d">
+<!ENTITY THERE "https://the-number.github.io">
 
 <!ENTITY XPath "http://www.w3.org/TR/xpath">
 <!ATTLIST xfunction href CDATA "&XPath;">
 
-
-
+<!ENTITY TeX 'TeX'>
 <!ENTITY LaTeX 'LaTeX'>
-<!ENTITY TeX 'TeX'> <!-- Retrieve the TeX HTML sequence -->
 <!ENTITY JaX 'MathJaX'>
-
-
-<!ENTITY ex1 '
-<code><![CDAT
-<?xml version="1.0" encoding="ISO-8859-1" ?>
-<xsl:stylesheet version="1.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:output method="html" indent="yes" version="5.0"/>
-  <xsl:template match="/">
-    <body>
-     <h1>Notes</h1>
-        <xsl:for-each select="notes/note">
-            <xsl:apply-templates />
-        </xsl:for-each>
-    </body>
-  </xsl:template>
-</xsl:stylesheet>
-]]></code>
-'>
-<!ENTITY ex3 '
-<code><![CDATA[
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-]]></code>
-'>
-<!ENTITY ex2 '
-<code><![CDATA[
-<xsl:template match="/">
-]]></code>
-'>
-
-<!ENTITY ex4 '
-
-'>
 
 <!ENTITY THERE
 'https://en.wikipedia.org/wiki/'>
-<!--'file:///var/mobile/Applications/88FCC7E0-9A4B-48B1-9448-4B0B20B9DE40/Documents/_03 Gunter Liszewski/_03 Jobs/_2018/Core Systems NI Ballysillan Glenbank Business Park/'-->
-
-<!ENTITY THERE_TOO
-''>
-<!-- file:///var/mobile/Applications/88FCC7E0-9A4B-48B1-9448-4B0B20B9DE40/Documents/_03 Gunter Liszewski/_06-Diary/2018/02/'-->
 
 <!ENTITY permittivity
 '<a href="&THERE;Permittivity">Permittivity</a>'>
-
 <!ENTITY touchscreen
 '<a href="&THERE;Touchscreen">Touchscreen</a>'>
-
-<!ENTITY previous
-'<a href="&THERE_TOO;25-Sunday.xml">25-Sunday.xml</a>'>
-
 
 ]> <!-- ============== END Entities =============== -->
 
@@ -104,8 +57,6 @@ href="0/Diary.xsl"?>
 
 <code><![CDATA[
 ]]></code>
-
-
 
 <theorem>
 </theorem>
@@ -135,23 +86,53 @@ href="0/Diary.xsl"?>
 
 <code><![CDATA[
 
-[0 xh0 hk
+[0 hx0 hk
 0,0eqcurl -X GET ...^[^[
 g#
 [0 hx0
-:s{^[".u0' ...
-
+[1 s{^[ .u1
+[2 s}^[ .u2 
+q1,q2:s{^[" ... nested blocks
+ 
 ]]></code>
 
 
-<para>$$129$$
+<para>
+$$(129)_{10}$$
 $$(81)_{16}$$
 $$(1000 0001)_{2}$$
 $$(11210)_{3}$$
 </para>
 
-</note>
+</note><date>2018.08.11 17:43</date><title>we</title>
+<code><![CDATA[
 
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mI0EW2nHDAEEAKkLg/VUOWyyas/i8tJNMRnm1bMlpXByscyGopkJ2Q/pXaEVEGm8
+zbMC7bZpEahlD42btg5NsrfuShE/r+ulcb5G7iQnPgDFk1c9A3X0dZjS4QZUJQGg
+qcE/JVTzOnczuaU6zUxmMkT+VYIwfasM1KCD7cIFW4w8mWHtpuUhK0StABEBAAG0
+M0d1bnRlciBMaXN6ZXdza2kgKHM3MCkgPGd1bnRlci5saXN6ZXdza2lAZ21haWwu
+Y29tPojUBBMBCAA+FiEEFnMvqKmnOWFz7+0Zh75aJvMoR3sFAltpxwwCGwMFCQAn
+jQAFCwkIBwIGFQoJCAsCBBYCAwECHgECF4AACgkQh75aJvMoR3sChwP/eHCPGfWO
+H11Thl52IuR+nl9azPxfgIgdCTDAF/T5w70esSJASXQQNRU51b3z6IXH1H5iFLJQ
+P/1MARa9KP/8Wzuz/Lu4g+wOmEVFed6l/iTVWLo2naZvRahT4GhcYnAsJ7ul7oeL
+7pfTO4lDfXXBsiN8yrBMx848cibZfiOCNMK4jQRbaccMAQQAug8owLfkAXT3Afnk
+1XulCzU4DCLQ+d5/w3GggFG0urxRzPH+734oI8WZGvTQYXOjGhox4+HX5i0kwMDr
+1rCPnoxLvVgpFXn52LaOWxqUop9cum+2MU0G71kZGeGuVtPLKPiRz4CeoOoHn+N7
+YafcVmmdV5/q+xyFwScUYZUxPGkAEQEAAYi8BBgBCAAmFiEEFnMvqKmnOWFz7+0Z
+h75aJvMoR3sFAltpxwwCGwwFCQAnjQAACgkQh75aJvMoR3suZQP9EOWoTxW06YzP
+hpZRe5gutZmxEJi/1sYmxjJIXNbfJPU9pHdrO8ifljv9sM6y6eZhGb/dJKma6/ga
+p8+IfCwgW+Ai6KPHGf5Ja2opG2CFWXUjXiXpvzrepMTh7Y1q62dS/vxNLt6An3JU
+OeD5BZzov1vgLTgSzXgpuVWVeR0KBXU=
+=zf6R
+-----END PGP PUBLIC KEY BLOCK-----
+
+]]></code>
+
+<note>
+
+</note>
 
 <notex><title>References</title>
 
@@ -165,4 +146,3 @@ $$(11210)_{3}$$
 </notex>
 
 </notes>
-
