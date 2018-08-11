@@ -96,7 +96,6 @@ q1,q2:s{^[" ... nested blocks
  
 ]]></code>
 
-
 <para>
 $$(129)_{10}$$
 $$(81)_{16}$$
@@ -121,7 +120,6 @@ $$(11210)_{3}$$
 <notex><title>References</title>
 
 <ol>
-  <li>&previous;</li>
   <li>&touchscreen;</li>
   <li>&permittivity;</li>
   <li><para>$$\alpha=space\times time$$</para></li>
