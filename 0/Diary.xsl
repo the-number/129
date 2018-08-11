@@ -1,5 +1,5 @@
 <?xml version="1.0"
-  encoding="ISO-8859-1" ?>
+  encoding="utf-8" ?>
 <xsl:stylesheet
   version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -22,8 +22,6 @@ window.onload = function () {
   setTimeout(function () {
     var script = document.createElement("script");
     script.prefix="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/";
-    script.prefixnonono = "0/";
-    script.prefixNotNoMore = "file:///var/mobile/Applications/88FCC7E0-9A4B-48B1-9448-4B0B20B9DE40/Documents/M/";
     script.type = "text/javascript";
     script.src  = script.prefix + "MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
