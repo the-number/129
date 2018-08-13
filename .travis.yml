@@ -6,11 +6,11 @@ env:
 language: c
 
 git:
-  depth: 1
+  depth: 51
 
 branches:
   except:
-  - gh-pages
+  - /^gh-pages$/
 
 matrix:
   include:
