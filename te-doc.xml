@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE as SYSTEM "129/as.dtd">
+<!-- DOCTYPE as SYSTEM "https://the-number.github.io/129/129/as.dtd" -->
+<?xml-stylesheet type="text/xsl" href="0/129.xsl"?>
+<notes>
+
+  
+<note>
+<code><![CDATA[
+i
+]]></code>
+
+  
+<p>
+insert something into the tex buffer
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+d
+]]></code>
+
+  
+<p>
+delete this character at the dot
+</p>
+</note>
+
+  
+  
+<note>
+<code><![CDATA[
+s
+]]></code>
+
+  
+<p>
+search for something in this text buffer
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+@
+]]></code>
+
+  
+<p>
+command prefix and modifier
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+:
+]]></code>
+
+  
+<p>
+command prefix and modifier
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+<
+]]></code>
+
+  
+<p>
+top of a loop
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+>
+]]></code>
+
+  
+<p>
+bottom of a loop
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+@:s_
+]]></code>
+
+  
+<p>
+search with alternative text delimiter, and return success of failure
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+-1"s
+]]></code>
+
+  
+<p>
+success condition met, start under this condition
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+'
+]]></code>
+
+  
+<p>
+end of a conditional statement block
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+!
+]]></code>
+
+  
+<p>
+alternative to the conditional; or else
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+1;
+]]></code>
+
+  
+<p>
+n>0, time to exit the current loop
+</p>
+</note>
+
+
+<!-- that is all for now -->
+</notes>
+
