@@ -1,0 +1,6 @@
+<!ELEMENT notes (note*)>
+<!ELEMENT note ((title|para|p|code)*)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT code (#PCDATA)>
