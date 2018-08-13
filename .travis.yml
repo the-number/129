@@ -4,6 +4,7 @@ install: true
 
 script:
  - ./t/0001-who-is-this
+ - ./t/0002-xmllint-129
  
 matrix:
  env:

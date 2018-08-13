@@ -1,0 +1,24 @@
+! 2018.08.13 0:32 (C) the author !
+@^ua* 0j @:s_<as>_"s .-4,.d       ! find the opening tag !
+@i_<?xml version="1.0" encoding="UTF-8"?>
+_
+.ua                              ! save where we are !
+@:s_</as>_"s .-5,.d              ! find the closing tag !
+@i_
+<!-- that is all for now -->
+_
+qaj  ''                          ! continue where we were !
+< @:s_<a>_"s .-3,.d @i_
+<code><![CDATA[
+_
+  @:s_</a>_"s .-4,.d @i_
+]]></code>
+_ | 1; '
+ @:s_<b>_"s .-3,.d @i_
+<p>
+_ | 1; '
+ @:s_</b>_"s .-4,.d @i_
+</p>
+_ | 1; ' | 1; ' >                ! bottom of the main loop !
+*
+! ma to run this on the current buffer !

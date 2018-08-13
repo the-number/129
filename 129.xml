@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE as SYSTEM "129/as.dtd">
+<!-- DOCTYPE as SYSTEM "https://the-number.github.io/129/129/as.dtd" -->
+<as>
+  <a>i</a>
+  <b>insert something into the tex buffer</b>
+
+  <a>d</a>
+  <b>delete this character at the dot</b>
+  
+  <a>s</a>
+  <b>search for something in this text buffer</b>
+</as>

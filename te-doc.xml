@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE as SYSTEM "129/as.dtd">
+<!-- DOCTYPE as SYSTEM "https://the-number.github.io/129/129/as.dtd" -->
+<?xml version="1.0" encoding="UTF-8"?>
+
+  
+<code><![CDATA[
+i
+]]></code>
+
+  
+<p>
+insert something into the tex buffer
+</p>
+
+
+  
+<code><![CDATA[
+d
+]]></code>
+
+  
+<p>
+delete this character at the dot
+</p>
+
+  
+  
+<code><![CDATA[
+s
+]]></code>
+
+  
+<p>
+search for something in this text buffer
+</p>
+
+
+<!-- that is all for now -->
+
