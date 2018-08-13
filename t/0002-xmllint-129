@@ -1,1 +1,1 @@
-xmllint --valid te-doc.xml
+xmllint --noout--valid te-doc.xml

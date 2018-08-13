@@ -1,40 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE as SYSTEM "129/as.dtd">
 <!-- DOCTYPE as SYSTEM "https://the-number.github.io/129/129/as.dtd" -->
-<as>
-  <a>i</a>
-  <b>insert something into the tex buffer</b>
+<?xml-stylesheet type="text/xsl" href="0/129.xsl"?>
+<notes>
 
-  <a>d</a>
-  <b>delete this character at the dot</b>
   
-  <a>s</a>
-  <b>search for something in this text buffer</b>
+<note>
+<code><![CDATA[
+i
+]]></code>
 
-  <a>@</a>
-  <b>command prefix and modifier</b>
+  
+<p>
+insert something into the tex buffer
+</p>
+</note>
 
-  <a>:</a>
-  <b>command prefix and modifier</b>
 
-  <a><</a>
-  <b>top of a loop</b>
+  
+<note>
+<code><![CDATA[
+d
+]]></code>
 
-  <a>></a>
-  <b>bottom of a loop</b>
+  
+<p>
+delete this character at the dot
+</p>
+</note>
 
-  <a>@:s_</a>
-  <b>search with alternative text delimiter, and return success of failure</b>
+  
+  
+<note>
+<code><![CDATA[
+s
+]]></code>
 
-  <a>-1"s</a>
-  <b>success condition met, start under this condition</b>
+  
+<p>
+search for something in this text buffer
+</p>
+</note>
 
-  <a>'</a>
-  <b>end of a conditional statement block</b>
 
-  <a>!</a>
-  <b>alternative to the conditional; or else</b>
+  
+<note>
+<code><![CDATA[
+@
+]]></code>
 
-  <a>1;</a>
-  <b>n>0, time to exit the current loop</b>
-</as>
+  
+<p>
+command prefix and modifier
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+:
+]]></code>
+
+  
+<p>
+command prefix and modifier
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+<
+]]></code>
+
+  
+<p>
+top of a loop
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+>
+]]></code>
+
+  
+<p>
+bottom of a loop
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+@:s_
+]]></code>
+
+  
+<p>
+search with alternative text delimiter, and return success of failure
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+-1"s
+]]></code>
+
+  
+<p>
+success condition met, start under this condition
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+'
+]]></code>
+
+  
+<p>
+end of a conditional statement block
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+!
+]]></code>
+
+  
+<p>
+alternative to the conditional; or else
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+1;
+]]></code>
+
+  
+<p>
+n>0, time to exit the current loop
+</p>
+</note>
+
+
+<!-- that is all for now -->
+</notes>
+
