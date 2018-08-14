@@ -10,7 +10,7 @@ git:
 
 branches:
   except:
-  - /^gh-pages$/
+  - gh-pages
 
 matrix:
   include:
