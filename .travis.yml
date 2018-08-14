@@ -21,13 +21,13 @@ matrix:
 
 sudo: false
 
+install: true
+
 addons:
   apt:
-    packags:
+    packages:
     - texinfo
     - guile
-
-install: true
 
 script:
  - ./t/0001-who-is-this
