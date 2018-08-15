@@ -6,5 +6,6 @@ install: true
 
 script:
  - ./t/0001-who-is-this
- - ./check
- - git describe
+ - touch t/ && ./check
+ - git describe --always || true
+ - git log --oneline || true
