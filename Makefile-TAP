@@ -1,0 +1,6 @@
+
+all:
+	@echo Hello, World of the Test Anything at all, at all
+
+check:	t/
+	@prove
