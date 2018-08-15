@@ -7,3 +7,4 @@ install: true
 script:
  - ./t/0001-who-is-this
  - ./check
+ - git describe
