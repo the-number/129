@@ -4,6 +4,11 @@ sudo: false
 
 install: true
 
+addons:
+  apt:
+    packages:
+    - rubber
+
 script:
  - ./t/0001-who-is-this
  - ./t/0002-rubber-pdf-doc 
