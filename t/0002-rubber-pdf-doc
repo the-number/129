@@ -1,0 +1,1 @@
+cd doc/ && rubber --pdf b-seahorse-Goettingen.tex || echo "not ok # not doing as it's told"
