@@ -8,7 +8,7 @@
 %% preamble
 \title{$(10000001)_2$}
 % \subtitle{with this byline}
-\author{Gunter Liszewski}
+\author[gl]{Gunter Liszewski}
 \date{Belfast, August 2018}
 
 \begin{document}
@@ -18,7 +18,15 @@
   \titlepage
 \end{frame}
 
+\AtBeginSection{}{
+  \begin{frame}
+    \frametitle{Outline}
+    \tableofcontents{currentsection}
+  \end{frame}
+}
+
 %% About this
+\section{Introduction}
 
 \begin{frame}{About this}
   \begin{enumerate}[A]
