@@ -1,9 +1,15 @@
 \documentclass[pdf]{beamer}
-\mode<presentation>{}
+\mode<presentation>{
+   \usetheme{Goettingen}
+   \usecolortheme{seahorse}
+   \useinnertheme{inmargin}
+   \useoutertheme{infolines}
+}
 %% preamble
-\title{This is the title...}
-\subtitle{with this byline}
-\author{the author of this, here}
+\title{Towards $(10000001)_2$...}
+% \subtitle{with this byline}
+\author{Gunter Liszewski}
+\date{\small{\small{Belfast, August 2018}}
 
 \begin{document}
 
@@ -12,9 +18,21 @@
   \titlepage
 \end{frame}
 
+%% About this
+
+\begin{frame}{About this}
+  \begin{itemize}
+    \item $(129)_{10}$, $(81)_{16}$, same thing, looks different
+    \item What will be here?
+    \item How?
+    \item Thoughts!
+  \end{itemize}
+\end{frame}
+
 %% one frame for one point
 \begin{frame}{The point is this...}
   Because of this, there is that
+$$\sum_{k=0}^{n}{k^2}={n(n+1)(2n+1)\over n}$$
 \end{frame}
 
 \end{document}
