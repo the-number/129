@@ -8,6 +8,7 @@ addons:
   apt:
     packages:
     - rubber
+    - latex-beamer
 
 script:
  - ./t/0001-who-is-this
