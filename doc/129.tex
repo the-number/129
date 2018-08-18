@@ -84,7 +84,9 @@ sets as ${2(2+1)(2\times2+1)\over 6}$, or in concrete $2\times3\times5\over6$, o
   \frametitle{Keep track, revise}
     A distributed control thing might help these revisions
     \semiverbatim{
-      te doc/129.tex
+       te this.thing \\
+       git add this.thing \\
+        ...
     }
 \end{frame}
 
@@ -94,9 +96,11 @@ sets as ${2(2+1)(2\times2+1)\over 6}$, or in concrete $2\times3\times5\over6$, o
   \frametitle{Set a working pattern}
     Type, remember, review, ...
     \semiverbatim{
-      te ...; git add --all; git commit ...; rubber --pdf ...; git stash -a
-       git checkout gh-p...; git stash apply; git commit ...;git push
-     https://the-number.github.io/129/doc/129.pdf
+       te ...; git add --all; git commit ...; \\
+       rubber --pdf ...; git stash -a \\
+       git checkout gh-p...; git stash apply \\
+       git commit ...;git push \\
+       https://the-number.github.io/129/doc/129.pdf
     }
 \end{frame}
 
