@@ -1,0 +1,9 @@
+
+\begin{frame}
+  \frametitle{Typing this}
+    Just type
+    \semiverbatim{
+      te doc/129.tex
+    }
+\end{frame}
+
