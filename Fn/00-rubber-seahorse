@@ -1,0 +1,9 @@
+00-rubber-seahorse () 
+{ 
+    ( D="rubber --pdf this.tex" );
+    for x in circles rectangles rounded;
+    do
+        sed b-seahorse-Goettingen.tex -e s,inmargin,$x, > b-seahorse-Goettingen-$x.tex;
+        rubber --pdf b-seahorse-Goettingen-$x.tex;
+    done
+}
