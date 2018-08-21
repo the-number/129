@@ -17,5 +17,5 @@ script:
  - rm -f doc/*.{aux,log,nav,out,snm,toc,bak}
  - git stash --all
  - git checkout gh-pages
- - git apply
+ - git stash apply
  - git push -f
