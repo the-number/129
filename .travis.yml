@@ -13,3 +13,4 @@ addons:
 script:
  - ./t/0001-who-is-this
  - ./t/0002-rubber-pdf-doc 
+ - ./t/0004-static-pages

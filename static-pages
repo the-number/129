@@ -1,1 +1,1 @@
-make -f Make-static
+t/0004-static-pages
