@@ -1,11 +1,12 @@
 *~
 \#*
+129-static.html
+*.aux
 *.bak
 doc/129.pdf
-*.aux
+doc/b-seahorse-Goettingen.pdf 
 *.log
 *.nav
 *.out
 *.snm
 *.toc
-129-static.html
