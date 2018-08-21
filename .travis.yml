@@ -14,3 +14,8 @@ script:
  - ./t/0001-who-is-this
  - ./t/0002-rubber-pdf-doc 
  - ./t/0004-static-pages
+ - rm -f doc/*.{aux,log,nav,out,snm,toc,bak}
+ - git stash --all
+ - git checkout gh-pages
+ - git apply
+ - git push -f
