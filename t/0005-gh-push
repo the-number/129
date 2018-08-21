@@ -3,5 +3,8 @@
 rm -f doc/*.{aux,log,nav,out,snm,toc,bak}
 git stash --all
 git checkout gh-pages
+rm -f 129-static.html doc/129.pdf doc/b-seahorse-Goettingen.pdf
 git stash apply
-git push -f
+git add --all
+git commit -m "static-pages: generated"
+git push
