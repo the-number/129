@@ -12,7 +12,7 @@ script:
 - ./t/0002-rubber-pdf-doc
 - ./t/0004-static-pages
 - rm -f doc/*.{aux,log,nav,out,snm,toc,bak}
-- git stash --all
+- ./t/0006-docs-deploy
 env:
   global:
     secure: ABOyq5RiOFKhVczolqbfgGD6ahwEWqHA6i3Hg9iHsuchmkmHvdqtK79D/1+eGsTwRKQ4GDQbhSUXxwURlc/mIb1hhksnBFU43Qo+G0mVJYidQxxwvlIyIRolwk9gJ1WRCzAptjFuSSJngA8wE0c3RhCyPhgQKxCXdIH/Zpsvhwkw6x8OA2s0femm7RTaxWnO4hb0TjTqRK65WYTSqjqo1Tnzo6RzL969/p5Nct46uBJB/vgWsAUajlaI5aORiK2AkDprywyJ7heaLicVtCS49yKEXv3h2G358jOxGDypngYPWOo6Y9FSV2Aw67HWuo3nGNpg46SOMLmfY/6aG14KjlZJZ5B0MWJgVJ0VJeP58fP3CohDybRN8A+u3pzN9eSqB7L6J+LBjHcXMqNceeyhiDhwxHp/YgaMKqIdz0B+eIQt389ihkFqwykRjtbNXFL58p+JoX/ZDp23PmXOJmlbLca1oyOn3clUr2J2inBdlaM05vdTRtTVASGJtIBntCJFHaEifiaO6ose+fwOwITW4Kn4gg5zIY+AOtEetQq8f5pHQ/Oq5Qy2d55hlrXVNaMNFrDSQd1Wp8gsOPKr3GXSGoQswHSuOTnrYeD4b+idrijeNrZJQsPqH/X2R1/ZSEe+UtNiuM5g6DDptzWXYSyLkZeC29aGf7+zCGbs5U/bZkA=
