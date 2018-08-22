@@ -1,3 +1,0 @@
-<!ELEMENT as (a, b)*>
-<!ELEMENT a  (#PCDATA)>
-<!ELEMENT b  (#PCDATA)>

@@ -1,3 +1,0 @@
-
-129-static.html: 129.xml 0/129.xsl
-	xsltproc -o 129-static.html 0/129.xsl 129.xml
