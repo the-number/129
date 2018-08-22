@@ -1,0 +1,9 @@
+01-pre-rubber-check () 
+{ 
+    ( D="review the editing efforts" );
+    for x in b-sea*tex;
+    do
+        echo == $x ==;
+        cat $x;
+    done
+}

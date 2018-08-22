@@ -1,0 +1,20 @@
+\documentclass[pdf]{beamer}
+\mode<presentation>{}
+%% preamble
+\title{This is the title...}
+\subtitle{with this byline}
+\author{the author of this, here}
+
+\begin{document}
+
+%% title frame
+\begin{frame}
+  \titlepage
+\end{frame}
+
+%% one frame for one point
+\begin{frame}{The point is this...}
+  Because of this, there is that
+\end{frame}
+
+\end{document}

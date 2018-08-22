@@ -1,0 +1,113 @@
+\documentclass[pdf]{beamer}
+\mode<presentation>{
+   \usetheme{Goettingen}
+   \usecolortheme{seahorse}
+%% \useinnertheme{inmargin}
+%% \useoutertheme{infolines}
+}
+%% preamble
+\title{$(1000\, 0001)_2$}
+\subtitle{Approach a beginning}
+\author[Gunter Liszewski\\ \copyright 2018]{Gunter Liszewski}
+\date{Belfast, August 2018}
+
+\begin{document}
+
+%% title frame
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\AtBeginSection{}{
+  \begin{frame}
+    \frametitle{Outline}
+    \tableofcontents{}
+  \end{frame}
+}
+
+%% About this
+\section{Introduction}
+\subsection{This here}
+
+\begin{frame}{About this}
+  Start right here
+  \begin{enumerate}[A]
+    \pause
+    \item\color<3->[rgb]{0.7,0.7,0.7} $(129)_{10}$, $(81)_{16}$, same thing, different looks
+    \pause
+    \item\color<3>[rgb]{0,0,0} What will be here?
+    \pause
+    \item\color<4>[rgb]{0,0,0} How?
+    \pause
+    \item\color<5>[rgb]{0.7,0.0,0.0} Thoughts!
+%%  \end{itemize}
+  \end{enumerate}
+\end{frame}
+\subsection{Talking about}
+
+%% one frame for one point
+\begin{frame}{The point is this...}
+  Because of this, there is that
+$$\sum_{k=0}^{n}{k^2}={n(n+1)(2n+1)\over 6}$$
+\end{frame}
+
+%% example n=2
+
+\begin{frame}{for example, $n=2$}
+  Then $\sum_{0\le k\le2}k^2$ gives $0+1+4=5$, and on the other side $n=2$ and ${n(n+1)(2n+1)\over 6}$
+sets as ${2(2+1)(2\times2+1)\over 6}$, or in concrete $2\times3\times5\over6$, or even just $5$.
+\end{frame}
+
+\subsection{The Admiral inn}
+
+\begin{frame}{or on the other page}
+
+  {\hfil\sl{}Fifteen men on the dead man's chest---}
+
+             {\hfil\sl{}Yo-ho-ho, and a bottle of rum!}
+\end{frame}
+
+\section{Methods}
+\subsection{Type to set}
+
+\begin{frame}
+  \frametitle{Typing this}
+    Just type
+    \semiverbatim{
+      te doc/129.tex
+    }
+\end{frame}
+
+\subsection{Revising time}
+
+\begin{frame}
+  \frametitle{Keep track, revise}
+    A distributed control thing might help these revisions
+    \semiverbatim{
+       te this.thing 
+
+       git add this.thing 
+
+        ...
+    }
+\end{frame}
+
+\subsection{Flow of the works}
+
+\begin{frame}
+  \frametitle{Set a working pattern}
+    Type, remember, review, ...
+    \semiverbatim{
+       te ...; git add --all; git commit ...; 
+
+       rubber --pdf ...; git stash -a 
+
+       git checkout gh-p...; git stash apply 
+
+       git commit ...;git push 
+
+       https://the-number.github.io/129/doc/129.pdf
+    }
+\end{frame}
+
+\end{document}
