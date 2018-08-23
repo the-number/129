@@ -152,6 +152,20 @@ exec guile --language=brainfuck -c \
 
 </note>
 
+  <note><date>2018.03.23 11:14 Thursday</date><title>Concept of taking this literally</title>
+
+<para>
+</para>
+
+<algorithm>
+ <dfn>Hi</dfn>
+ <ol>
+   <li>0   <code><![CDATA[ [>++++ ]]></code>         <para> $c_1\gets4$</para></li>
+  <li>and so forth...</li>
+ </ol>
+</algorithm>
+</note>
+  
 <notex><title>References</title>
 
 <ol>
