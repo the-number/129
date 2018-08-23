@@ -41,4 +41,45 @@ $$(1000\, 0001)_{2}$$
 $$(11210)_{3}$$
 </p>
 
+2018.08.23 9:28 Thursday<h2 style="background-color : #dcdddd">What is this?</h2>
+
+<p style="width:80%">
+Here is a language of eight words. There is more on the Internet. One example is on Wikipedia, as follows.
+This particular implementaion uses scheme as the meta language to interpret this, and it takes one word, ',' as its own meta-command.
+'a,' for example envelops the word, and makes it available to the language interpreter, who ignores all but the words it nows.
+</p>
+
+<div style="background: #aabbaa; width: 93%; "><pre>
+
+#!/usr/bin/env sh
+exec guile --language=brainfuck -c \
+'
+    ++++++++         $c_0\gets8$
+0   [&gt;++++           $c_1\gets4$
+1   [&gt;++             $c_2\gets2$
+    &gt;+++             $c_3\gets3$
+    &gt;+++             $c_4\gets3$
+    &gt;+               $c_5\gets1$
+    &lt;&lt;&lt;&lt;-            $DECR(c_1)$
+    ]                repeat from 1 if $(c_1)\gt0$
+    &gt;+               $INCR(c_2)$
+    &gt;+               $INCR(c_3)$
+    &gt;-               $DECR(c_4)$
+    &gt;&gt;+              $INCR(c_6)$
+    [&lt;]              left until $c=0 or $FIND(c_1)$
+    &lt;-               $DECR(c_0)$
+    ]                repeat from 0 if $c_0\gt0$
+    &gt;&gt;.              $OUT(c_2)$
+    &gt;---.            $OUT(c_3)$
+    +++++++..+++.    $OUT('llo')$
+    &gt;&gt;.              $OUT(c_5)$
+    &lt;-.              $OUT(c_4)$
+    &lt;.+++.
+    ------.--------. $OUT(c_3 'orld')$
+    &gt;&gt;+.&gt;++.         $OUT(c_5 c_6 '!\n')$
+    ]                start
+'
+
+</pre></div>
+
 </body>
