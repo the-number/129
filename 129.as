@@ -41,6 +41,6 @@
   <a>[q</a>
   <b>Push reqister, q, down; both number and text</b>
 
-  <a>]q</a>>
+  <a>]q</a>
   <b>pop both, text as well as number into register q</b>
 </as>
