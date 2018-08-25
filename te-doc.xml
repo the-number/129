@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE notes SYSTEM "129/notes.dtd">
-<!-- DOCTYPE as SYSTEM "https://the-number.github.io/129/129/as.dtd" -->
+<!DOCTYPE 129 SYSTEM "0/129.dtd">
+<!-- DOCTYPE 129 SYSTEM "https://the-number.github.io/129/0/129.dtd" -->
 <?xml-stylesheet type="text/xsl" href="0/129.xsl"?>
 <notes>
 
@@ -137,7 +137,7 @@ end of a conditional statement block
   
 <note>
 <code><![CDATA[
-!
+|
 ]]></code>
 
   
@@ -156,6 +156,32 @@ alternative to the conditional; or else
   
 <p>
 n>0, time to exit the current loop
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+[q
+]]></code>
+
+  
+<p>
+Push reqister, q, down; both number and text
+</p>
+</note>
+
+
+  
+<note>
+<code><![CDATA[
+]q
+]]></code>
+>
+  
+<p>
+pop both, text as well as number into register q
 </p>
 </note>
 

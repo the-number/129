@@ -32,9 +32,15 @@
   <a>'</a>
   <b>end of a conditional statement block</b>
 
-  <a>!</a>
+  <a>|</a>
   <b>alternative to the conditional; or else</b>
 
   <a>1;</a>
   <b>n>0, time to exit the current loop</b>
+
+  <a>[q</a>
+  <b>Push reqister, q, down; both number and text</b>
+
+  <a>]q</a>>
+  <b>pop both, text as well as number into register q</b>
 </as>
