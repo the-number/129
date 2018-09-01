@@ -1,0 +1,2 @@
+* Automake and autoconf
+  To make something.

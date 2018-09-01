@@ -1,0 +1,11 @@
+*~
+*.bak
+\#*
+*.bak
+doc/129.pdf
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
