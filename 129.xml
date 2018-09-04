@@ -114,7 +114,7 @@ $$(11210)_{3}$$
 <para>
 Here is a language of eight words. There is more on the Internet. One example is on Wikipedia, as follows.
 This particular implementaion uses scheme as the meta language to interpret this, and it takes one word, ',' as its own meta-command.
-'a,' for example envelops the word, and makes it available to the language interpreter, who ignores all but the words it nows.
+'a,' for example envelops the word, and makes it available to the language interpreter, who ignores all but the words it knows.
 </para>
 
 <code><![CDATA[
@@ -134,7 +134,7 @@ exec guile --language=brainfuck -c \
     >+               $INCR(c_3)$
     >-               $DECR(c_4)$
     >>+              $INCR(c_6)$
-    [<]              left until $c=0 or $FIND(c_1)$
+    [<]              left until $c=0$ or $FIND(c_1)$
     <-               $DECR(c_0)$
     ]                repeat from 0 if $c_0\gt0$
     >>.              $OUT(c_2)$

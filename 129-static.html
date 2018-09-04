@@ -46,7 +46,7 @@ $$(11210)_{3}$$
 <p style="width:80%">
 Here is a language of eight words. There is more on the Internet. One example is on Wikipedia, as follows.
 This particular implementaion uses scheme as the meta language to interpret this, and it takes one word, ',' as its own meta-command.
-'a,' for example envelops the word, and makes it available to the language interpreter, who ignores all but the words it nows.
+'a,' for example envelops the word, and makes it available to the language interpreter, who ignores all but the words it knows.
 </p>
 
 <div style="background: #aabbaa; width: 93%; "><pre>
@@ -66,7 +66,7 @@ exec guile --language=brainfuck -c \
     &gt;+               $INCR(c_3)$
     &gt;-               $DECR(c_4)$
     &gt;&gt;+              $INCR(c_6)$
-    [&lt;]              left until $c=0 or $FIND(c_1)$
+    [&lt;]              left until $c=0$ or $FIND(c_1)$
     &lt;-               $DECR(c_0)$
     ]                repeat from 0 if $c_0\gt0$
     &gt;&gt;.              $OUT(c_2)$
