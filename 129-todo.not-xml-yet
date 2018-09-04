@@ -165,6 +165,71 @@ exec guile --language=brainfuck -c \
  </ol>
 </algorithm>
 </note>
+	<note><date>2018.09.04 13:52 Tuesday</date><title>The making of commentary for this subject	</title>
+
+<para>
+</para>
+
+<code><![CDATA[
+
+
+<tr><td>    </td><td>+++++++         </td><td>$c_0\gets8$
+</td></tr>
+<tr><td>0   </td><td>>++++           </td><td>$c_1\gets4$
+</td></tr>
+<tr><td>1   </td><td>>++             </td><td>$c_2\gets2$
+</td></tr>
+<tr><td>    </td><td>+++             </td><td>$c_3\gets3$
+</td></tr>
+<tr><td>    </td><td>+++             </td><td>$c_4\gets3$
+</td></tr>
+<tr><td>    </td><td>+               </td><td>$c_5\gets1$
+</td></tr>
+<tr><td>    </td><td><<<-            </td><td>$DECR(c_1)$
+</td></tr>
+<tr><td>    </td><td>                </td><td>repeat from 1 if $(c_1)\gt0$
+</td></tr>
+<tr><td>    </td><td>+               </td><td>$INCR(c_2)$
+</td></tr>
+<tr><td>    </td><td>+               </td><td>$INCR(c_3)$
+</td></tr>
+<tr><td>    </td><td>-               </td><td>$DECR(c_4)$
+</td></tr>
+<tr><td>    </td><td>>+              </td><td>$INCR(c_6)$
+</td></tr>
+<tr><td>    </td><td><]              </td><td>left until $c=0$ or $FIND(c_1)$
+</td></tr>
+<tr><td>    </td><td>-               </td><td>$DECR(c_0)$
+</td></tr>
+<tr><td>    </td><td>                </td><td>repeat from 0 if $c_0\gt0$
+</td></tr>
+<tr><td>    </td><td>>.              </td><td>$OUT(c_2)$
+</td></tr>
+<tr><td>    </td><td>---.            </td><td>$OUT(c_3)$
+</td></tr>
+<tr><td>    </td><td>++++++..+++.    </td><td>$OUT('llo')$
+</td></tr>
+<tr><td>    </td><td>>.              </td><td>$OUT(c_5)$
+</td></tr>
+<tr><td>    </td><td>-.              </td><td>$OUT(c_4)$
+</td></tr>
+<tr><td>    </td><td>.+++.
+    -----</td><td>-.--------. $OUT(c_3 'orld')$
+</td></tr>
+<tr><td>    </td><td>>+.>++.         </td><td>$OUT(c_5 c_6 '!\n')$
+</td></tr>
+<tr><td>    </td><td>                </td><td>start
+</td></tr>
+<tr><td>'
+</td><td>]]></code>
+
+</</td><td>note>
+</td></tr>
+
+
+]]></code>
+
+</note>
   
 <notex><title>References</title>
 
