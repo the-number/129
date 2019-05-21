@@ -10,6 +10,7 @@ addons:
 script:
 - ./t/0001-who-is-this
 - ./t/0002-rubber-pdf-doc
+- ./t/0002-130-rubber-pdf-doc
 - ./t/0004-static-pages
 - rm -f doc/*.{aux,log,nav,out,snm,toc,bak}
 - ./t/0006-docs-deploy
