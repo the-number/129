@@ -1,2 +1,3 @@
 cd doc/ && rubber --pdf b-seahorse-Goettingen.tex || echo "not ok # not doing as it's told"
 rubber --pdf 129.tex || echo "not ok # not doing the 129.tex"
+rubber --pdf 130.tex || echo "not ok # not doing the 130.tex"
