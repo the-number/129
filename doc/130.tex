@@ -1,152 +1,138 @@
-% Created 2019-05-21 Tue 13:42
+% Created 2019-05-21 Tue 18:19
+% Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{fixltx2e}
 \usepackage{graphicx}
+\usepackage{grffile}
 \usepackage{longtable}
-\usepackage{float}
-\usepackage{wrapfig}
-\usepackage{soul}
+%%% \usepackage{wrapfig}
+\usepackage{rotating}
+%%% \usepackage[normalem]{ulem}
+\usepackage{amsmath}
 \usepackage{textcomp}
-%%% XXX: this package is not found by travis-ci: \usepackage{marvosym}
-%%%  ditto: \usepackage{wasysym}
-\usepackage{latexsym}
 \usepackage{amssymb}
+%%% \usepackage{capt-of}
 \usepackage{hyperref}
-\tolerance=1000
-\providecommand{\alert}[1]{\textbf{#1}}
-
-\title{Testing emacs-lisp things}
 \author{Gunter Liszewski}
 \date{\today}
+\title{Testing emacs-lisp things}
 \hypersetup{
-  pdfkeywords={},
-  pdfsubject={},
-  pdfcreator={Emacs Org-mode version 7.9.3f}}
-
+ pdfauthor={Gunter Liszewski},
+ pdftitle={Testing emacs-lisp things},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.2 (Org mode 9.2.3)}, 
+ pdflang={English}}
 \begin{document}
 
 \maketitle
+\tableofcontents
 
+\href{../a/index.org}{\{Back to the index\}} \href{./test-this.org.html}{\{the source of this\}} \href{https://www2.bteco.ltd.uk/t/6/b/test-this.org}{\{download\}}
 
-\href{file:///home/gunter/sbx/093-agile-org-mode/a/index.org}{\{Back to the index\}} \href{file:///home/gunter/sbx/093-agile-org-mode/b/test-this.org.html}{\{the source of this\}} \href{https://www2.bteco.ltd.uk/t/6/b/test-this.org}{\{download\}}
-
-\section*{\textbf{TODO} (Backlog refinement) later, the team should review these methods and make choices}
-\label{sec-1}
+\section*{{\bfseries\sffamily TODO} (Backlog refinement) later, the team should review these methods and make choices}
+\label{sec:org9b635f1}
 \subsection*{Learning and experiences}
-\label{sec-1-1}
-
-  The organisation should benefit from the experiences that are narrated here.
-  However, the team should agree on a choice of tools/methods/approaches to be
-  taken forward. The team should then focus only on the selected things. Other
-  options should be kept options within reach, to facilitate review and reconsidering
-  options.
+\label{sec:org55a440d}
+The organisation should benefit from the experiences that are narrated here.
+However, the team should agree on a choice of tools/methods/approaches to be
+taken forward. The team should then focus only on the selected things. Other
+options should be kept options within reach, to facilitate review and reconsidering
+options.
 \subsection*{This track, B has specific goals and the backlock refinement event should address them}
-\label{sec-1-2}
-
-  ATDD. Specify the products by giving concrete examples. Application tests should
-  drive development forward. This track is about that. Is this agreed?
-\subsection*{\textbf{TODO} The team should review and refine experiences gained earlier}
-\label{sec-1-3}
-
-  For example, a lates beamer thing.
-  \href{https://the-number.github.io/129/doc/this-here.pdf}{\{this-here.pdf\}}
-\section*{\textbf{TODO} The developer uses a template to formulate one specific test}
-\label{sec-2}
-\section*{\textbf{INPROGRESS} Find out about ERT}
-\label{sec-3}
-
-  How to run the ERT-TEST set.
+\label{sec:orgccee0b4}
+ATDD. Specify the products by giving concrete examples. Application tests should
+drive development forward. This track is about that. Is this agreed?
+\section*{{\bfseries\sffamily TODO} The developer uses a template to formulate one specific test}
+\label{sec:org45cfb33}
+\section*{{\bfseries\sffamily INPROGRESS} Find out about ERT}
+\label{sec:org8b5d9ee}
+How to run the ERT-TEST set.
 
 \begin{verbatim}
-   emacs -L some-where \
-         -l ert \
-         -L test \
-         -l ert-tests.el \
-         -f ert-summarize-tests-batch-and-exit output.log
+emacs -L some-where \
+      -l ert \
+      -L test \
+      -l ert-tests.el \
+      -f ert-summarize-tests-batch-and-exit output.log
 \end{verbatim}
 
-  Oh, how interesting. 24 and 26 \underline{are} different; so it seems.
-  Does 26 drift towards cl? What about scope; dynamic, lexical\ldots{}
+
+Oh, how interesting. 24 and 26 \uline{are} different; so it seems.
+Does 26 drift towards cl? What about scope; dynamic, lexical\ldots{}
 \begin{verbatim}
-   emacs -L some-where \
-    -l ert \
-    -L test \
-    -l ert-test.el \
-    -f ert-run-tests-batch-and-exit |& tee _/$( date )-ert-tests
+emacs -L some-where \
+ -l ert \
+ -L test \
+ -l ert-test.el \
+ -f ert-run-tests-batch-and-exit |& tee _/$( date )-ert-tests
 \end{verbatim}
-\subsection*{\textbf{TODO} The stakeholders want to see the difference in lexical and dynamic, or else}
-\label{sec-3-1}
 
-   Is hygiene just about soap, the developers wonder.
-   They need their curiosity entertained.
-   Being free. Currying, or so. Again!
+\subsection*{{\bfseries\sffamily TODO} The stakeholders want to see the difference in lexical and dynamic, or else}
+\label{sec:org3f6c1b0}
+Is hygiene just about soap, the developers wonder.
+They need their curiosity entertained.
+Being free. Currying, or so. Again!
 
 \begin{verbatim}
-   run-ert-24
+run-ert-24
 \end{verbatim}
-\section*{\textbf{DONE} The developers should gain experience of using these tools}
-\label{sec-4}
 
+\section*{{\bfseries\sffamily DONE} The developers should gain experience of using these tools}
+\label{sec:orgb087038}
+Structure templates
 
-  Structure templates
-
-  \verb.C-c C-,~ the sequence for ~(org-insert-structure-template).
-
+\texttt{C-c C-,} the sequence for \texttt{(org-insert-structure-template)}
 \begin{verbatim}
 (+ 1 101)
 \end{verbatim}
 
-  Macros
-
+Macros
 
 \begin{center}
 \begin{tabular}{ll}
 \hline
- Title:   &  Testing emacs-lisp things  \\
- Author:  &  Gunter Liszewski           \\
+Title: & Testing emacs-lisp things\\
+Author: & Gunter Liszewski\\
 \hline
- File:    &  test-this.org              \\
- Time:    &  Tuesday, 21 May 2019       \\
+File: & test-this.org\\
+Time: & Tuesday, 21 May 2019\\
 \hline
 \end{tabular}
 \end{center}
 
-
-
-  What effort this is
-
+What effort this is
 
 \begin{verbatim}
 (org-set-effort &optional INCREMENT VALUE)
 \end{verbatim}
 
 And this is this! For now.
-\section*{\textbf{DONE} To produce this, here}
-\label{sec-5}
-\subsection*{\textbf{DONE} The developers' and owner's machines may use directory locals to work this}
-\label{sec-5-1}
-\subsubsection*{\textbf{DONE} the developer should verify that these things work for \textbf{them}}
-\label{sec-5-1-1}
 
+\section*{{\bfseries\sffamily DONE} To produce this, here}
+\label{sec:org3070956}
+\subsection*{{\bfseries\sffamily DONE} The developers' and owner's machines may use directory locals to work this}
+\label{sec:orgd11dca9}
 
+\subsubsection*{{\bfseries\sffamily DONE} the developer should verify that these things work for \textbf{them}}
+\label{sec:org7ea1407}
 
 \begin{verbatim}
 ((org-mode
   (eval progn (defun all-this ()
-                                        ; (org-cycle '(64))
-                (org-html-export-to-html)
-                (with-current-buffer (htmlize-buffer)
-                  (write-file (buffer-name (current-buffer)) nil)
-                  (kill-buffer (current-buffer)))
-                (defun push-to (a b c)
-                  (shell-command
-                   (format D
-                           a b c)))
-                (push-to (file-name-base) ".org.html" C)
-                (push-to (file-name-base) ".html" C)
-                (push-to (file-name-base) ".org" C)))
+					; (org-cycle '(64))
+		(org-html-export-to-html)
+		(with-current-buffer (htmlize-buffer)
+		  (write-file (buffer-name (current-buffer)) nil)
+		  (kill-buffer (current-buffer)))
+		(defun push-to (a b c)
+		  (shell-command
+		   (format D
+			   a b c)))
+		(push-to (file-name-base) ".org.html" C)
+		(push-to (file-name-base) ".html" C)
+		(push-to (file-name-base) ".org" C)))
   (D . "scp -P 2222 %s%s www2.bteco.ltd.uk:/var/www/html/t/6/%s"))
  ("a/"
   (org-mode
@@ -158,10 +144,9 @@ And this is this! For now.
   (org-mode
    (C . "c/"))))
 \end{verbatim}
-\subsubsection*{\textbf{DONE} Now, on some other machine there may be different parameters.}
-\label{sec-5-1-2}
 
-
+\subsubsection*{{\bfseries\sffamily DONE} Now, on some other machine there may be different parameters.}
+\label{sec:orge6ffd80}
 
 \begin{verbatim}
 ((org-mode
@@ -179,30 +164,29 @@ And this is this! For now.
   (org-mode
    (C . "c/"))))
 \end{verbatim}
-\subsubsection*{\textbf{WAITING} The team should verify things for \textbf{their} workstation and \textbf{their} server.}
-\label{sec-5-1-3}
 
+\subsubsection*{{\bfseries\sffamily WAITING} The team should verify things for \textbf{their} workstation and \textbf{their} server.}
+\label{sec:orgc9ea4a8}
 
- \verb,C-x ~C-e, may be hit at the end of each line.
+\texttt{C-x \textasciitilde{}C-e} may be hit at the end of each line.
 
 \begin{verbatim}
- D
- (buffer-name (current-buffer))
- C
- (all-this)
+D
+(buffer-name (current-buffer))
+C
+(all-this)
 \end{verbatim}
-\subsection*{\textbf{DONE} On the way to get this done, this is a previous increment}
-\label{sec-5-2}
 
+\subsection*{{\bfseries\sffamily DONE} On the way to get this done, this is a previous increment}
+\label{sec:org787b4cf}
 
-  This is here for review. It is currently done via file local variables
+This is here for review. It is currently done via file local variables
 
-  Within the source block hit \texttt{C-c C-c} to do all within.
-  Or, to execute just a single SEXP, hit \texttt{C-x C-e} after it.
+Within the source block hit \texttt{C-c C-c} to do all within.
+Or, to execute just a single SEXP, hit \texttt{C-x C-e} after it.
 
-  Hit \texttt{C-c C-o} to open the following link that does \texttt{(all-this)}.
-  \texttt{\{Do all of this\}} (after \texttt{all-this} if =defun=ed.)
-
+Hit \texttt{C-c C-o} to open the following link that does \texttt{(all-this)}.
+\href{(all-this)}{\{Do all of this\}} (after \texttt{all-this} if =defun=ed.)
 
 \begin{verbatim}
 (defun all-this ()
@@ -229,24 +213,24 @@ q (defun push-to (a b c)
 \end{verbatim}
 
 \begin{verbatim}
- (org-cycle '(4))                                ;; overview
- (org-cycle '(64))                               ;; showeverything
+(org-cycle '(4))                                ;; overview
+(org-cycle '(64))                               ;; showeverything
 \end{verbatim}
-\subsection*{\textbf{DONE} Another way To produce this, here: \verb~C-c C-o~ over \texttt{\{Do all of this\}}}
-\label{sec-5-3}
 
+\subsection*{{\bfseries\sffamily DONE} Another way To produce this, here: \texttt{C-c C-o} over \href{(all-this)}{\{Do all of this\}}}
+\label{sec:orgdbf0d3e}
 
-  Within the source block hit \texttt{C-c C-c} to do all within.
-  Or, to execute just a single SEXP, hit \texttt{C-x C-e} after it.
+Within the source block hit \texttt{C-c C-c} to do all within.
+Or, to execute just a single SEXP, hit \texttt{C-x C-e} after it.
 
-  Hit \texttt{C-c C-o} to open the following link that does \texttt{(all-this)}.
-  \texttt{\{Do all of this\}} (after \texttt{all-this} if =defun=ed by the file local variables.)
+Hit \texttt{C-c C-o} to open the following link that does \texttt{(all-this)}.
+\href{(all-this)}{\{Do all of this\}} (after \texttt{all-this} if =defun=ed by the file local variables.)
 
 \begin{verbatim}
-   (org-cycle '(4))                                ;; overview
-   (org-cycle '(64))                               ;; showeverything
-   (a)
-   (c)
+(org-cycle '(4))                                ;; overview
+(org-cycle '(64))                               ;; showeverything
+(a)
+(c)
 \end{verbatim}
 
 \begin{verbatim}
@@ -272,12 +256,10 @@ q (defun push-to (a b c)
 #  (push-to (file-name-base) ".org" (c))))
 # End:
 \end{verbatim}
-\section*{\textbf{DONE} This was here, this was the local thing}
-\label{sec-6}
-
-  and now, the last section in this file sets local variables. They facilitate
-  the making of this.
-
+\section*{{\bfseries\sffamily DONE} This was here, this was the local thing}
+\label{sec:org2ecd637}
+and now, the last section in this file sets local variables. They facilitate
+the making of this.
 \begin{verbatim}
 (setq lexical-binding t)
 ;; 
@@ -296,9 +278,8 @@ local-variable 'compile-command "ls")
 (all-this)
 ;;   
 (desktop-save-in-desktop-dir)
-;;
+;; 
 \end{verbatim}
 
 
-
 \end{document}
